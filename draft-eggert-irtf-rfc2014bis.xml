@@ -11,7 +11,7 @@
 <!--<?rfc rfcedstyle="yes"?>-->
 <?rfc sortrefs="yes" ?>
 
-<rfc category="bcp" ipr="trust200902" obsoletes="2014"
+<rfc category="bcp" ipr="trust200902" obsoletes="2014" submissionType="IRTF"
 docName="draft-eggert-irtf-rfc2014bis-00">
 <front>
 <title abbrev="IRTF Research Group Guidelines">IRTF Research Group Guidelines and Procedures</title>
@@ -40,6 +40,9 @@ docName="draft-eggert-irtf-rfc2014bis-00">
 <t>
 The Internet Research Task Force (IRTF) has responsibility for organizing groups to investigate research topics related to the Internet protocols, applications, and technology. IRTF activities are organized into Research Groups. This document describes the guidelines and procedures for formation and operation of IRTF Research Groups. It describes the relationship between IRTF participants, Research Groups, the Internet Research Steering Group (IRSG) and the Internet Architecture Board (IAB). The basic duties of IRTF participants, including the IRTF Chair, Research Group Chairs and IRSG members are defined.
 </t>
+<t>
+This document obsoletes RFC2014.
+</t>
 </abstract>
 </front>
 <middle>
@@ -50,11 +53,11 @@ The Internet Research Task Force (IRTF) has responsibility for organizing groups
 <section title="Introduction">
 
 <t>
-This document defines guidelines and procedures for Internet Research Task Force (IRTF) Research Groups. The IRTF focuses on longer term research issues related to the Internet while the parallel organization, the Internet Engineering Task Force (IETF), focuses on the shorter term issues of engineering and standards making.
+This document defines guidelines and procedures for Internet Research Task Force (IRTF) Research Groups. It obsoletes <xref target="RFC2014" />. The IRTF focuses on longer term research issues related to the Internet while the parallel organization, the Internet Engineering Task Force (IETF), focuses on the shorter term issues of engineering and standards making.
 </t>
 
 <t>
-The Internet is a loosely-organized international collaboration of autonomous, interconnected networks; it supports host-to-host communication through voluntary adherence to open protocols and procedures defined by Internet Standards, a collection of which are commonly known as "the TCP/IP protocol suite". Development and review of potential Internet Standards from all sources is conducted by the Internet Engineering Task Force (IETF). The Internet Standards Process is defined in <xref target="RFC1602" />.
+The Internet is a loosely-organized international collaboration of autonomous, interconnected networks; it supports host-to-host communication through voluntary adherence to open protocols and procedures defined by Internet Standards, a collection of which are commonly known as "the TCP/IP protocol suite". Development and review of potential Internet Standards from all sources is conducted by the Internet Engineering Task Force (IETF). The Internet Standards Process is defined in <xref target="RFC2026" />.
 </t>
 
 <t>
@@ -70,7 +73,7 @@ The IRTF Chair is appointed by the IAB, the Research Group chairs are appointed 
 </t>
 
 <t>
-In addition to managing the Research Groups, the IRSG may from time to time hold topical workshops focusing on research areas of importance to the evolution of the Internet, or more general workshops to, for example, discuss research priorities from an Internet perspective.
+In addition to managing the Research Groups, the IRSG MAY from time to time hold topical workshops focusing on research areas of importance to the evolution of the Internet, or more general workshops to, for example, discuss research priorities from an Internet perspective.
 </t>
 
 <t>
@@ -78,7 +81,7 @@ This document defines procedures and guidelines for formation and operation of R
 </t>
 
 <t>
-The document uses: "shall", "will", "must" and "is required" where it describes steps in the process that are essential, and uses: "suggested", "should" and "may" where guidelines are described that are not essential, but are strongly recommended to help smooth Research Group operation. The terms "they", "them" and "their" are used in this document as third-person singular pronouns.
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in <xref target="RFC2119" />.
 </t>
 
 
@@ -87,7 +90,7 @@ The document uses: "shall", "will", "must" and "is required" where it describes 
 <section title="IRTF Approach">
 
 <t>
-The reader is encouraged to study The Internet Standards Process <xref target="RFC1602" /> to gain a complete understanding of the philosophy, procedures and guidelines of the IETF and its approach to standards making.
+The reader is encouraged to study The Internet Standards Process <xref target="RFC2026" /> to gain a complete understanding of the philosophy, procedures and guidelines of the IETF and its approach to standards making.
 </t>
 
 <t>
@@ -99,11 +102,11 @@ IRTF Research Groups are formed to encourage research in areas of importance to 
 </t>
 
 <t>
-IRTF Research Groups may have open or closed memberships. Limited membership may be advantageous to the formation of the long term working relationships that are critical to successful collaborative research. However, limited membership must be used with care and sensitivity to avoid unnecessary fragmentation of the work of the research community. Allowing limited membership is in stark contrast to IETF Working Groups, which are always open; this contrast reflects the different goals and environments of the two organizations -- research vs. standards setting.
+IRTF Research Groups may have open or closed memberships. Limited membership may be advantageous to the formation of the long term working relationships that are critical to successful collaborative research. However, limited membership MUST be used with care and sensitivity to avoid unnecessary fragmentation of the work of the research community. Allowing limited membership is in stark contrast to IETF Working Groups, which are always open; this contrast reflects the different goals and environments of the two organizations -- research vs. standards setting.
 </t>
 
 <t>
-To ameliorate the effects of closed membership, all Research Groups are required to regularly report progress to the community, and are encouraged to hold occasional open meetings (most likely co-located with IETF meetings). In addition, the IRTF may host open plenaries at regular IETF meetings during which research results of interest to the community are presented. Finally, multiple Research Groups working in the same general area may be formed if appropriate.
+To ameliorate the effects of closed membership, all Research Groups are REQUIRED to regularly report progress to the community, and are encouraged to hold occasional open meetings (most likely co-located with IETF meetings). In addition, the IRTF may host open plenaries at regular IETF meetings during which research results of interest to the community are presented. Finally, multiple Research Groups working in the same general area may be formed if appropriate.
 </t>
 
 <t>
@@ -122,7 +125,7 @@ Research Groups are the activity centers in the IRTF. A Research Group is typica
 </t>
 
 <t>
-A Research Group may be established at the initiative of an individual or group of individuals. Anyone interested in creating an IRTF Research Group must submit a charter for the proposed group to the IRTF Chair along with a list of proposed founding members. The charter will be reviewed by the IRSG and then forwarded to the IAB for approval.
+A Research Group may be established at the initiative of an individual or group of individuals. Anyone interested in creating an IRTF Research Group MUST submit a charter for the proposed group to the IRTF Chair along with a list of proposed founding members. The charter SHALL be reviewed by the IRSG and then forwarded to the IAB for approval.
 </t>
 
 <t>
@@ -135,7 +138,7 @@ If approved, the charter is placed on the IRTF Web site, and published in the In
 <section title="Criteria for Formation">
 
 <t>
-In determining whether it is appropriate to create a Research Group, the IRTF Chair, the IRSG and the IAB will consider several issues:
+In determining whether it is appropriate to create a Research Group, the IRTF Chair, the IRSG and the IAB SHALL consider several issues:
 
 <list style="symbols">
 
@@ -152,14 +155,14 @@ Do the Research Group's activities overlap with those of another Research Group?
 </t>
 
 <t>
-Is there sufficient interest and expertise in the Research Group's topic with at least several people willing to expend the effort that is likely to produce significant results over time? Research Groups require considerable effort, including management of the Research Group process, editing of Research Group documents, and contribution to the document text. IRTF experience suggests that these roles typically cannot all be handled by one person; at least four or five active participants are typically required. To help in this determination, a proposal to create a Research Group should include a list of potential charter members.
+Is there sufficient interest and expertise in the Research Group's topic with at least several people willing to expend the effort that is likely to produce significant results over time? Research Groups require considerable effort, including management of the Research Group process, editing of Research Group documents, and contribution to the document text. IRTF experience suggests that these roles typically cannot all be handled by one person; at least four or five active participants are typically required. To help in this determination, a proposal to create a Research Group SHOULD include a list of potential charter members.
 </t>
 
 </list>
 </t>
 
 <t>
-The Internet Architecture Board (IAB) will also review the charter of the proposed Research Group to determine the relationship of the proposed work to the overall architecture of the Internet Protocol Suite.
+The Internet Architecture Board (IAB) SHALL also review the charter of the proposed Research Group to determine the relationship of the proposed work to the overall architecture of the Internet Protocol Suite.
 </t>
 </section>
 
@@ -169,7 +172,7 @@ The Internet Architecture Board (IAB) will also review the charter of the propos
 <section title="Charter">
 
 <t>
-A charter is a contract between a Research Group and the IRTF to conduct research in the designated area. Charters may be renegotiated periodically to reflect changes to the current status, organization or goals of the Research Group.
+A charter is a contract between a Research Group and the IRTF to conduct research in the designated area. Charters MAY be renegotiated periodically to reflect changes to the current status, organization or goals of the Research Group.
 </t>
 
 <t>
@@ -185,7 +188,7 @@ A IRTF Research Group charter consists of five sections:
 Research Group Name <list style="empty">
 
 <t>
-A Research Group name should be reasonably descriptive or identifiable. Additionally, the group shall define an acronym (maximum 8 printable ASCII characters) to reference the group in the IRTF directories, mailing lists, and general documents. The name and acronym must not conflict with any IETF names and acronyms.
+A Research Group name SHOULD be reasonably descriptive or identifiable. Additionally, the group SHALL define an acronym (maximum 8 printable ASCII characters) to reference the group in the IRTF directories, mailing lists, and general documents. The name and acronym MUST NOT conflict with any IETF names and acronyms.
 </t>
 </list>
 </t>
@@ -194,7 +197,7 @@ A Research Group name should be reasonably descriptive or identifiable. Addition
 Chair(s) <list style="empty">
 
 <t>
-The Research Group may have one or two Chair(s) to perform the administrative functions of the group. The email address(es) of the Chair(s) shall be included.
+The Research Group may have one or two Chair(s) to perform the administrative functions of the group. The email address(es) of the Chair(s) SHALL be included.
 </t>
 </list>
 </t>
@@ -203,11 +206,11 @@ The Research Group may have one or two Chair(s) to perform the administrative fu
 Mailing list(s) <list style="empty">
 
 <t>
-Each Research Group shall have an address (possibly the Chair's) for members of the Internet community to send queries regarding the Research Group. For instance, for requests to join the group.
+Each Research Group SHALL have an address (possibly the Chair's) for members of the Internet community to send queries regarding the Research Group. For instance, for requests to join the group.
 </t>
 
 <t>
-A Research Group, whether limited membership or open, will have an "interest" Internet mailing list open to all interested parties. This list is used for an open discussion of the issues and announcements of results as they become available. Included should be the address to which an interested party sends a subscription request for the interest list and the procedures to follow when subscribing, and the location of the interest mailing list archive.
+A Research Group, whether limited membership or open, SHALL have an "interest" Internet mailing list open to all interested parties. This list is used for an open discussion of the issues and announcements of results as they become available. Included SHOULD be the address to which an interested party sends a subscription request for the interest list and the procedures to follow when subscribing, and the location of the interest mailing list archive.
 </t>
 
 <t>
@@ -220,7 +223,7 @@ It is expected that a Research Group may also have a mailing list limited to the
 Membership Policy <list style="empty">
 
 <t>
-The Charter must define the membership policy (whether open or limited), and the procedure to apply for membership in the group. While limited membership is permitted, it is in no way encouraged or required.
+The Charter MUST define the membership policy (whether open or limited), and the procedure to apply for membership in the group. While limited membership is permitted, it is in no way encouraged or required.
 </t>
 </list>
 </t>
@@ -229,11 +232,11 @@ The Charter must define the membership policy (whether open or limited), and the
 Description of Research Group <list style="empty">
 
 <t>
-The focus and intent of the group shall be set forth briefly. By reading this section alone, an individual should be able to decide whether this group is relevant to their own work. The first paragraph must give a brief summary of the research area, basis, goal(s) and approach(es) planned for the Research Group. This paragraph will frequently be used as an overview of the Research Group's effort.
+The focus and intent of the group SHALL be set forth briefly. By reading this section alone, an individual should be able to decide whether this group is relevant to their own work. The first paragraph SHOULD give a brief summary of the research area, basis, goal(s) and approach(es) planned for the Research Group. This paragraph will frequently be used as an overview of the Research Group's effort.
 </t>
 
 <t>
-To facilitate evaluation of the intended work and to provide on-going guidance to the Research Group, the charter shall describe the proposed research and shall discuss objectives and expected impact with respect to the Internet Architecture.
+To facilitate evaluation of the intended work and to provide on-going guidance to the Research Group, the charter SHALL describe the proposed research and SHALL discuss objectives and expected impact with respect to the Internet Architecture.
 </t>
 </list>
 </t>
@@ -265,7 +268,7 @@ There are few hard and fast rules on organizing or conducting Research Group act
 <section title="Meeting Planning">
 
 <t>
-For coordinated, structured Research Group interactions, the Chair must publish to the group mailing list a draft agenda well in advance of the actual meeting. The agenda needs to contain at least:
+For coordinated, structured Research Group interactions, the Chair MUST publish to the group mailing list a draft agenda well in advance of the actual meeting. The agenda needs to contain at least:
 <list style="symbols">
 
 <t>
@@ -282,11 +285,11 @@ A clear indication of what documents the participants will need to read before t
 </t>
 
 <t>
-A Research Group will conduct much of its business via its electronic mail distribution list(s). It is also likely to meet periodically to accomplish those things that are better achieved in more interactive meetings, such as brainstorming, heated altercations, etc. Meetings may be scheduled as telephone conference, video teleconference, or face-to-face (physical) meetings.
+A Research Group will conduct much of its business via its electronic mail distribution list(s). It is also likely to meet periodically to accomplish those things that are better achieved in more interactive meetings, such as brainstorming, heated altercations, etc. Meetings MAY be scheduled as telephone conference, video teleconference, or face-to-face (physical) meetings.
 </t>
 
 <t>
-It is strongly encouraged that all Research Group meetings be recorded in written minutes, to keep informed members who were not present and the community at large and to document the proceedings for present and future members. These minutes should include the agenda for the meeting, an account of the high points of the discussion, and a list of attendees. Unless the Research Group chair decides otherwise, the minutes should be sent to the interest group and made available through the IRTF Web and ftp sites.
+It is strongly encouraged that all Research Group meetings be recorded in written minutes, to keep informed members who were not present and the community at large and to document the proceedings for present and future members. These minutes SHOULD include the agenda for the meeting, an account of the high points of the discussion, and a list of attendees. Unless the Research Group chair decides otherwise, the minutes SHOULD be sent to the interest group and made available through the IRTF Web and ftp sites.
 </t>
 </section>
 
@@ -296,7 +299,7 @@ It is strongly encouraged that all Research Group meetings be recorded in writte
 <section title="Meeting Venue">
 
 <t>
-Each Research Group will determine the balance of email and face-to-face meetings that is appropriate for making progress on its goals.
+Each Research Group SHALL determine the balance of email and face-to-face meetings that is appropriate for making progress on its goals.
 </t>
 
 <t>
@@ -343,7 +346,7 @@ Disband the group.
 </t>
 
 <t>
-If the Research Group disagrees with the IRTF Chair's choice, it may appeal to the IAB.
+If the Research Group disagrees with the IRTF Chair's choice, it MAY appeal to the IAB.
 </t>
 </section>
 
@@ -362,7 +365,7 @@ Research Groups require considerable care and feeding. In addition to general pa
 <section title="IRTF Chair">
 
 <t>
-The IRTF Chair is responsible for ensuring that Research Groups produce coherent, coordinated, architecturally consistent and timely output as a contribution to the overall evolution of the Internet architecture. In addition to the detailed tasks related to Research Groups outlined below, the IRTF Chair may also from time to time arrange for topical workshops attended by the IRSG and perhaps other experts in the field.
+The IRTF Chair is responsible for ensuring that Research Groups produce coherent, coordinated, architecturally consistent and timely output as a contribution to the overall evolution of the Internet architecture. In addition to the detailed tasks related to Research Groups outlined below, the IRTF Chair MAY also from time to time arrange for topical workshops attended by the IRSG and perhaps other experts in the field.
 </t>
 
 <t>
@@ -418,7 +421,7 @@ Members of the IRSG are responsible for advising the IRTF Chair on the charterin
 <section title="Research Group Chair">
 
 <t>
-The Research Group Chair is concerned with making forward progress in the areas under investigation, and has wide discretion in the conduct of Research Group business. The Chair must ensure that a number of tasks are performed, either directly or by others assigned to the tasks. This encompasses at the very least the following:
+The Research Group Chair is concerned with making forward progress in the areas under investigation, and has wide discretion in the conduct of Research Group business. The Chair MUST ensure that a number of tasks are performed, either directly or by others assigned to the tasks. This encompasses at the very least the following:
 </t>
 
 <t>
@@ -434,7 +437,7 @@ The Chair has ultimate responsibility for ensuring that a Research Group achieve
 Moderate the Research Group email list <list>
 
 <t>
-The Chair should attempt to ensure that the discussions on this list are relevant and that not devolve to "flame" attacks or rat-hole into technical trivia. The Chair should make sure that discussions on the list are summarized and that the outcome is well documented (to avoid repetition).
+The Chair SHOULD attempt to ensure that the discussions on this list are relevant and that not devolve to "flame" attacks or rat-hole into technical trivia. The Chair SHOULD make sure that discussions on the list are summarized and that the outcome is well documented (to avoid repetition).
 </t>
 </list>
 </t>
@@ -443,7 +446,7 @@ The Chair should attempt to ensure that the discussions on this list are relevan
 Organize, prepare and chair face-to-face and on-line formal meetings <list>
 
 <t>
-The Chair should plan and announce meetings well in advance. (See section on Meeting Planning for procedures.)
+The Chair SHOULD plan and announce meetings well in advance. (See section on Meeting Planning for procedures.)
 </t>
 </list>
 </t>
@@ -452,7 +455,7 @@ The Chair should plan and announce meetings well in advance. (See section on Mee
 Communicate results of meetings <list>
 
 <t>
-The Chair and/or Secretary must ensure that minutes of a meeting are taken.
+The Chair and/or Secretary MUST ensure that minutes of a meeting are taken.
 </t>
 </list>
 </t>
@@ -483,7 +486,7 @@ It is up to the Research Group to decide the authorship of papers resulting from
 Document publication <list>
 
 <t>
-The Chair and/or Secretary will work with the RFC Editor to ensure documents to be published as RFCs conform with RFC publication requirements and to coordinate any editorial changes suggested by the RFC Editor.
+The Chair and/or Secretary SHALL work with the RFC Editor to ensure documents to be published as RFCs conform with RFC publication requirements and to coordinate any editorial changes suggested by the RFC Editor.
 </t>
 </list>
 </t>
@@ -509,11 +512,11 @@ Taking minutes and editing jointly-authored Research Group documents often is pe
 <section title="Meeting Documents">
 
 <t>
-All relevant documents for a meeting (including the final agenda) should be published to the group mailing list and available at least two weeks before a meeting starts.
+All relevant documents for a meeting (including the final agenda) SHOULD be published to the group mailing list and available at least two weeks before a meeting starts.
 </t>
 
 <t>
-It is strongly suggested that the Research Group Chair make sure that an anonymous FTP directory or Web site be available for the upcoming meeting. All relevant documents (including the final agenda and the minutes of the last meeting) should be placed in this directory. This has the advantage that all participants can retrieve all files in this directory and thus make sure they have all relevant documents. Also, it will be helpful to provide electronic mail-based retrieval for those documents.
+It is strongly RECOMMENDED that the Research Group Chair make sure that an anonymous FTP directory or Web site be available for the upcoming meeting. All relevant documents (including the final agenda and the minutes of the last meeting) SHOULD be placed in this directory. This has the advantage that all participants can retrieve all files in this directory and thus make sure they have all relevant documents. Also, it will be helpful to provide electronic mail-based retrieval for those documents.
 </t>
 </section>
 
@@ -523,7 +526,7 @@ It is strongly suggested that the Research Group Chair make sure that an anonymo
 <section title="Request For Comments (RFC)">
 
 <t>
-The work of an IRTF Research Group usually results in publication of research papers and other documents, as well as documents as part of the Informational or Experimental Request For Comments (RFCs) series <xref target="RFC1602" />. This series is the archival publication record for the Internet community. A document can be written by an individual in a Research Group, by a group as a whole with a designated Editor, or by others not involved with the IRTF. The designated author(s) need not include the group Chair(s).
+The work of an IRTF Research Group usually results in publication of research papers and other documents, as well as documents as part of the Informational or Experimental Request For Comments (RFCs) series <xref target="RFC2026" />. This series is the archival publication record for the Internet community. A document can be written by an individual in a Research Group, by a group as a whole with a designated Editor, or by others not involved with the IRTF. The designated author(s) need not include the group Chair(s).
 </t>
 
 <t>
@@ -541,10 +544,15 @@ If the Research Group or the RFC Editor thinks that an extensive review is appro
 </section>
 
 
+<section title="IANA Considerations">
+<t>
+This document has no IANA considerations.
+</t>
+</section>
+
 
 <!-- RFC original section: (7.) -->
 <section title="Security Considerations">
-
 <t>
 Security issues are not discussed in this memo.
 </t>
@@ -553,13 +561,13 @@ Security issues are not discussed in this memo.
 
 
 <!-- RFC original section: (1.2.) -->
+<!--
 <section title="Acknowledgments">
-
 <t>
-This document is based on the March 1994 RFC "IETF Working Group Guidelines and Procedures" by E. Huizer and D. Crocker <xref target="RFC1603" />.
+This document is based on the March 1994 RFC "IETF Working Group Guidelines and Procedures" by E. Huizer and D. Crocker <xref target="RFC2418" />.
 </t>
-
 </section>
+-->
 </middle>
 
 
@@ -568,11 +576,12 @@ This document is based on the March 1994 RFC "IETF Working Group Guidelines and 
 
 <references title="Normative References">
 <?rfc include="reference.RFC.2014" ?>
+<?rfc include="reference.RFC.2119" ?>
 </references>
 
 <references title="Informative References">
-<?rfc include="reference.RFC.1602" ?>
-<?rfc include="reference.RFC.1603" ?>
+<?rfc include="reference.RFC.2026" ?>
+<!--<?rfc include="reference.RFC.2418" ?>-->
 </references>
 
 </back>

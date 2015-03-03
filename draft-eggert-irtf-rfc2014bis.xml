@@ -24,7 +24,7 @@
 <?rfc sortrefs="yes" ?>
 
 <rfc category="bcp" ipr="trust200902" obsoletes="2014" submissionType="IRTF"
-docName="draft-eggert-irtf-rfc2014bis-02">
+docName="draft-eggert-irtf-rfc2014bis-03">
 <front>
 <title abbrev="IRTF Research Group Guidelines">IRTF Research Group Guidelines and Procedures</title>
 
@@ -609,6 +609,13 @@ Security issues are not discussed in this memo.
 <t>
 This document is based on the October 1996 RFC "IRTF Research Group Guidelines and Procedures" by A. Weinrib <xref target="RFC2014"/>, which in turn was based on the March 1994 RFC "IETF Working Group Guidelines and Procedures" by E. Huizer and D. Crocker <xref target="RFC1603"/>.
 </t>
+<t>
+Lars Eggert has received funding from the European Union's Horizon 2020
+research and innovation program 2014-2018 under grant agreement No. 644866. This
+document reflects only the authors' views and the European Commission is not
+responsible for any use that may be made of the information it contains.
+</t>
+
 </section>
 
 </middle>

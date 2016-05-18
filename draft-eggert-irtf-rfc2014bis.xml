@@ -23,7 +23,7 @@
 <!--<?rfc rfcedstyle="yes"?>-->
 <?rfc sortrefs="yes" ?>
 
-<rfc category="bcp" ipr="trust200902" obsoletes="2014" submissionType="IRTF"
+<rfc category="info" ipr="trust200902" obsoletes="2014" submissionType="IRTF"
 docName="draft-eggert-irtf-rfc2014bis-03">
 <front>
 <title abbrev="IRTF Research Group Guidelines">IRTF Research Group Guidelines and Procedures</title>
@@ -44,9 +44,7 @@ docName="draft-eggert-irtf-rfc2014bis-03">
 </author>
 
 <date/>
-
-<keyword>Internet Architecture Board</keyword>
-<keyword>Internet Research Task Force</keyword>
+<workgroup>Internet Research Task Force (IRTF)</workgroup>
 
 <abstract>
 <t>
@@ -652,6 +650,11 @@ responsible for any use that may be made of the information it contains.
 <texttable>
 <ttcol>Rev</ttcol>
 <ttcol>Changes</ttcol>
+<c>-03</c>
+<c>
+Changed the stream to IRTF and status to Informational, per discussion with the IAB at the Cambridge, MA retreat. Added funding acknowledgment.
+</c>
+<c>&nbsp;</c><c>&nbsp;</c>
 <c>-02</c>
 <c>
 Added text about and reference to <xref target="RFC7418"/>. Add pointer to IRTF RFC process wiki. More wordsmithing.

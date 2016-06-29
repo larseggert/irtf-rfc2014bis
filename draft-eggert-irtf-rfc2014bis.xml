@@ -10,6 +10,7 @@
 <!ENTITY RFC5743 SYSTEM "http://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.5743.xml">
 <!ENTITY RFC6322 SYSTEM "http://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.6322.xml">
 <!ENTITY RFC7418 SYSTEM "http://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.7418.xml">
+<!ENTITY RFC7827 SYSTEM "http://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.7827.xml">
 ]>
 
 <?rfc toc="yes"?>
@@ -24,7 +25,7 @@
 <?rfc sortrefs="yes" ?>
 
 <rfc category="info" ipr="trust200902" obsoletes="2014" submissionType="IRTF"
-docName="draft-eggert-irtf-rfc2014bis-03">
+docName="draft-eggert-irtf-rfc2014bis-04">
 <front>
 <title abbrev="IRTF Research Group Guidelines">IRTF Research Group Guidelines and Procedures</title>
 
@@ -66,16 +67,17 @@ This document obsoletes RFC2014.
 This document defines guidelines and procedures for Internet Research Task Force (IRTF) Research Groups. It obsoletes <xref target="RFC2014"/>, which originally documented them. The IRTF focuses on longer term research issues related to the Internet, while its parallel organization, the Internet Engineering Task Force (IETF), focuses on shorter term issues of engineering and standards making.
 </t>
 
-<t>
+<!-- <t>
 The Internet is a loosely-organized international collaboration of autonomous, interconnected networks; it supports host-to-host communication through voluntary adherence to open protocols and procedures defined by Internet Standards, a collection of which are commonly known as "the TCP/IP protocol suite". Development and review of potential Internet Standards from all sources is conducted by the Internet Engineering Task Force (IETF). The Internet Standards Process is defined in <xref target="RFC2026"/>.
 </t>
+ -->
 
 <t>
 The IRTF is composed of a number of focused, long-term, small Research Groups. These groups work on topics related to Internet protocols, applications, architecture and technology. Research Groups are expected to have the stable, long-term membership needed to promote the development of research collaboration and teamwork in exploring research issues. Participation is by individual contributors, rather than by representatives of organizations.
 </t>
 
 <t>
-The IRTF is managed by the IRTF Chair in consultation with the Internet Research Steering Group (IRSG). The IRSG membership includes the IRTF Chair, the chairs of the various Research Groups and possibly other individuals ("members at large") from the research community.
+The IRTF is managed by the IRTF Chair in consultation with the Internet Research Steering Group (IRSG). The role of the IRTF Chair is described in more detail in <xref target="RFC7827"/>. The IRSG membership includes the IRTF Chair, the chairs of the various Research Groups and possibly other individuals ("members at large") from the research community.
 </t>
 
 <t>
@@ -87,7 +89,8 @@ In addition to managing the Research Groups, the IRSG MAY from time to time hold
 </t>
 
 <t>
-This document defines procedures and guidelines for the formation and operation of Research Groups in the IRTF. The duties of the IRTF Chair, the Research Group Chairs and IRSG members are also described. Except for members at large of the IRSG, there is no general participation in the IRTF, only participation in a specific Research Group.
+This document defines procedures and guidelines for the formation and operation of Research Groups in the IRTF. The duties of the IRTF Chair, the Research Group Chairs and IRSG members are also described. Except for members at large of the IRSG, there is no general participation in the IRTF, only participation in a specific Research Group. However,
+since around 2010, the IRTF has begun to hold "open meetings" during IETF meetings <xref target="IRTFOPEN"/>, and a mailing list was created for discussion of IRTF-wide topics <xref target="IRTF-DISCUSS"/>.
 </t>
 
 <t>
@@ -133,13 +136,13 @@ Even more than the IETF, the work of the IRSG is expected to be marked by inform
 The IRTF follows the IETF Intellectual Property Rights (IPR) disclosure rules, as described in Section 3.2 of <xref target="RFC5743"/>. This is a summary of these rules as they relate to IRTF research group discussions, mailing lists and Internet Drafts:
 <list style="symbols">
 <t>
-If a participant includes his own or his employer's IPR in a contribution to an IRTF research group, then he must file an IPR disclosure with the IETF.
+If a participant includes their own or their employer's IPR in a contribution to an IRTF research group, then they must file an IPR disclosure with the IETF.
 </t>
 <t>
-If a participant recognizes his own or his employer's IPR in someone else's contribution and he is participating in the discussions in the research group relating to that contribution, then he must file an IPR disclosure with the IETF. Even if he are not participating in the discussion, the IRTF still requests that he file an IPR disclosure with the IETF.
+If a participant recognizes their own or their employer's IPR in someone else's contribution and they are participating in the discussions in the research group relating to that contribution, then they must file an IPR disclosure with the IETF. Even if they are not participating in the discussion, the IRTF still requests that they file an IPR disclosure with the IETF.
 </t>
 <t>
-Finally, the IRTF requests that a participant file an IPR disclosure with the IETF if he recognize IPR owned by others in any IRTF contribution.
+Finally, the IRTF requests that a participant file an IPR disclosure with the IETF if they recognize IPR owned by others in any IRTF contribution.
 </t>
 </list>
 Participants may file an IPR disclosure here: http://www.ietf.org/ipr/file-disclosure
@@ -160,10 +163,11 @@ Research Groups are the activity centers in the IRTF. A Research Group is typica
 
 <t>
 A Research Group may be established at the initiative of an individual or group of individuals. Anyone interested in creating an IRTF Research Group MUST submit a charter for the proposed group to the IRTF Chair along with a list of proposed founding members. The charter SHALL be reviewed by the IRSG and then forwarded to the IAB for approval.
+If approved, the charter is placed on the IRTF Web site.
 </t>
 
 <t>
-If approved, the charter is placed on the IRTF Web site.
+This process allows the IRTF Chair considerable freedom in how to decide to charter new work, and different approaches have been tried. One approach seems to have worked well recently, and is therefore briefly described here as an example" Under this approach, the IRTF Chair permits the proponents of new Research Groups to start a mailing list under the irtf.org domain, schedule meetings during IETF weeks and elsewhere for their new group, and otherwise act as if they were already formally chartered. These RGs are referred to as "Proposed RGs" in the IETF Datatracker, on the meeting agenda, etc. and while they often create a wiki page for themselves, their charter is not posted on the IRTF web site, in order to distinguish them from officially chartered RGs. After roughly a year, the IRTF Chair reviews the progress, activity levels and general operation of the Proposed RG, and decides to formally charter or abandon the effort.
 </t>
 
 
@@ -244,7 +248,7 @@ Each Research Group SHALL have an address (possibly a Chair's) for members of th
 </t>
 
 <t>
-A Research Group, whether limited-membership or open, SHALL have an Internet mailing list open to all interested parties. This list is used for an open discussion of the issues and announcements of results as they become available. Included SHOULD be the address to which an interested party sends a subscription request for the interest list and the procedures to follow when subscribing, and the location of the interest mailing list archive.
+A Research Group, whether limited-membership or open, SHALL have an Internet mailing list open to all interested parties. This list is used for an open discussion of the issues and announcements of results as they become available. Included SHOULD be the address to which an interested party sends a subscription request for the interest list and the procedures to follow when subscribing, and the location of the interest mailing list archive. It is RECOMMENDED that his mailing list be hosted under the irtf.org domain, so its archive will remain available in the future.
 </t>
 
 <t>
@@ -366,7 +370,7 @@ The challenge of managing Research Group meetings is to balance the need for con
 <section title="Research Group Termination">
 
 <t>
-If, at some point, it becomes evident that a Research Group is not making progress in the research areas defined in its charter, or fails to regularly report the results of its research to the community, the IRTF Chair can, in consultation with Group, either:
+If, at some point, it becomes evident that a Research Group is not making progress in the research areas defined in its charter, or fails to regularly report the results of its research to the community, the IRTF Chair can either:
 
 <list style="numbers">
 
@@ -384,7 +388,9 @@ Disband the group.
 </t>
 
 <t>
-If the Research Group disagrees with the IRTF Chair's choice, it MAY appeal to the IAB.
+The IRTF Chair
+is encouraged to make this decision after consulting with the RG.
+However, if the RG disagrees with the chair's decision, it MAY appeal to the IAB.
 </t>
 </section>
 
@@ -544,7 +550,7 @@ The publication process has been changing over the years and is expected to cont
 <section title="Research Group Editor/Secretary">
 
 <t>
-Taking minutes and editing jointly-authored Research Group documents often is performed by a specifically-designated participant or set of participants appointed by an RG Chair and approval from the IETF Chair.
+Taking minutes and editing jointly-authored Research Group documents often is performed by a specifically-designated participant or set of participants appointed by an RG Chair and approval from the IRTF Chair.
 </t>
 </section>
 </section>
@@ -635,9 +641,30 @@ responsible for any use that may be made of the information it contains.
 	&RFC5743;
 	&RFC6322;
 	&RFC7418;
+	&RFC7827;
       <reference anchor="IRTF-RFCs" target="http://trac.tools.ietf.org/group/irtf/trac/wiki/IRTF-RFCs">
         <front>
           <title>IRTF RFC Process</title>
+          <author fullname="IRTF">
+            <organization />
+          </author>
+          <date year=""/>
+        </front>
+      </reference>
+
+      <reference anchor="IRTFOPEN" target="https://datatracker.ietf.org/group/irtfopen/about/">
+        <front>
+          <title>IRTF Open Meeting</title>
+          <author fullname="IRTF">
+            <organization />
+          </author>
+          <date year=""/>
+        </front>
+      </reference>
+
+      <reference anchor="IRTF-DISCUSS" target="https://www.irtf.org/mailman/listinfo/irtf-discuss">
+        <front>
+          <title>IRTF General and New-Work Discussion List</title>
           <author fullname="IRTF">
             <organization />
           </author>
@@ -650,6 +677,11 @@ responsible for any use that may be made of the information it contains.
 <texttable>
 <ttcol>Rev</ttcol>
 <ttcol>Changes</ttcol>
+<c>-04</c>
+<c>
+Addressed feedback from Mat Ford, Niels ten Oever and Martin Thomson.
+</c>
+<c>&nbsp;</c><c>&nbsp;</c>
 <c>-03</c>
 <c>
 Changed the stream to IRTF and status to Informational, per discussion with the IAB at the Cambridge, MA retreat. Added funding acknowledgment.

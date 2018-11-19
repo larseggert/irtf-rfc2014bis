@@ -4,6 +4,7 @@
 <!ENTITY RFC2014 SYSTEM "http://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.2014.xml">
 <!ENTITY RFC2026 SYSTEM "http://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.2026.xml">
 <!ENTITY RFC2119 SYSTEM "http://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.2119.xml">
+<!ENTITY RFC2850 SYSTEM "http://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.2850.xml">
 <!ENTITY RFC3979 SYSTEM "http://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.3979.xml">
 <!ENTITY RFC4440 SYSTEM "http://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.4440.xml">
 <!ENTITY RFC5742 SYSTEM "http://xml2rfc.tools.ietf.org/public/rfc/bibxml/reference.RFC.5742.xml">
@@ -25,7 +26,7 @@
 <?rfc sortrefs="yes" ?>
 
 <rfc category="info" ipr="trust200902" obsoletes="2014" submissionType="IRTF"
-docName="draft-eggert-irtf-rfc2014bis-04">
+docName="draft-eggert-irtf-rfc2014bis-05">
 <front>
 <title abbrev="IRTF Research Group Guidelines">IRTF Research Group Guidelines and Procedures</title>
 
@@ -77,11 +78,11 @@ The IRTF is composed of a number of focused, long-term, small Research Groups. T
 </t>
 
 <t>
-The IRTF is managed by the IRTF Chair in consultation with the Internet Research Steering Group (IRSG). The role of the IRTF Chair is described in more detail in <xref target="RFC7827"/>. The IRSG membership includes the IRTF Chair, the chairs of the various Research Groups and possibly other individuals ("members at large") from the research community.
+The IRTF is managed by the IRTF Chair in consultation with the Internet Research Steering Group (IRSG). The IRSG membership includes the IRTF Chair, the chairs of the various Research Groups and possibly other individuals ("members-at-large") from the research community.
 </t>
 
 <t>
-The IRTF Chair is appointed by the IAB, the Research Group chairs are appointed as part of the formation of Research Groups (as detailed below) and the IRSG members at large are chosen by the IRTF Chair in consultation with the rest of the IRSG and on approval by the IAB.
+The IRTF Chair is appointed by the Internet Architecture Board (IAB) <xref target="RFC2850"/><xref target="IAB"/>, the Research Group chairs are appointed as part of the formation of Research Groups (as detailed below) and the IRSG members-at-large are chosen by the IRTF Chair in consultation with the rest of the IRSG and on approval by the IAB.
 </t>
 
 <t>
@@ -89,8 +90,8 @@ In addition to managing the Research Groups, the IRSG MAY from time to time hold
 </t>
 
 <t>
-This document defines procedures and guidelines for the formation and operation of Research Groups in the IRTF. The duties of the IRTF Chair, the Research Group Chairs and IRSG members are also described. Except for members at large of the IRSG, there is no general participation in the IRTF, only participation in a specific Research Group. However,
-since around 2010, the IRTF has begun to hold "open meetings" during IETF meetings <xref target="IRTFOPEN"/>, and a mailing list was created for discussion of IRTF-wide topics <xref target="IRTF-DISCUSS"/>.
+This document defines procedures and guidelines for the formation and operation of Research Groups in the IRTF. The duties of the IRTF Chair, the Research Group Chairs and IRSG members are also described; the first is also described in more detail in <xref target="RFC7827"/>.  Except for members-at-large of the IRSG, there is no general participation in the IRTF, only participation in a specific Research Group. However,
+since around 2010, the IRTF has begun to hold "open meetings" during IETF meetings <xref target="IRTFOPEN"/>, and a mailing list was created for discussion of IRTF-wide topics <xref target="IRTF-DISCUSS"/>, both allowing the community to engage with the IRTF.
 </t>
 
 <t>
@@ -167,7 +168,7 @@ If approved, the charter is placed on the IRTF Web site.
 </t>
 
 <t>
-This process allows the IRTF Chair considerable freedom in how to decide to charter new work, and different approaches have been tried. One approach seems to have worked well recently, and is therefore briefly described here as an example" Under this approach, the IRTF Chair permits the proponents of new Research Groups to start a mailing list under the irtf.org domain, schedule meetings during IETF weeks and elsewhere for their new group, and otherwise act as if they were already formally chartered. These RGs are referred to as "Proposed RGs" in the IETF Datatracker, on the meeting agenda, etc. and while they often create a wiki page for themselves, their charter is not posted on the IRTF web site, in order to distinguish them from officially chartered RGs. After roughly a year, the IRTF Chair reviews the progress, activity levels and general operation of the Proposed RG, and decides to formally charter or abandon the effort.
+This process allows the IRTF Chair considerable freedom in how to decide to charter new work, and different approaches have been tried. One approach seems to have worked well recently, and is therefore briefly described here as an example: Under this approach, the IRTF Chair permits the proponents of new Research Groups to start a mailing list under the irtf.org domain, schedule meetings during IETF weeks and elsewhere for their new group, and otherwise act as if they were already formally chartered. These RGs are referred to as "Proposed RGs" in the IETF Datatracker, on the meeting agenda, etc. and while they often create a wiki page for themselves, their charter is not posted on the IRTF web site, in order to distinguish them from officially chartered RGs. After roughly a year, the IRTF Chair reviews the progress, activity levels and general operation of the Proposed RG, and decides to formally charter or abandon the effort.
 </t>
 
 
@@ -248,7 +249,7 @@ Each Research Group SHALL have an address (possibly a Chair's) for members of th
 </t>
 
 <t>
-A Research Group, whether limited-membership or open, SHALL have an Internet mailing list open to all interested parties. This list is used for an open discussion of the issues and announcements of results as they become available. Included SHOULD be the address to which an interested party sends a subscription request for the interest list and the procedures to follow when subscribing, and the location of the interest mailing list archive. It is RECOMMENDED that his mailing list be hosted under the irtf.org domain, so its archive will remain available in the future.
+A Research Group, whether limited-membership or open, SHALL have an Internet mailing list open to all interested parties. This list is used for an open discussion of the issues and announcements of results as they become available. Included SHOULD be the address to which an interested party sends a subscription request for the interest list and the procedures to follow when subscribing, and the location of the interest mailing list archive. It is RECOMMENDED that this mailing list be hosted under the irtf.org domain, so its archive will remain available in the future.
 </t>
 
 <t>
@@ -637,11 +638,13 @@ responsible for any use that may be made of the information it contains.
 
 <references title="Informative References">
 	&RFC1603;
+	&RFC2850;
 	&RFC4440;
 	&RFC5743;
 	&RFC6322;
 	&RFC7418;
 	&RFC7827;
+
       <reference anchor="IRTF-RFCs" target="http://trac.tools.ietf.org/group/irtf/trac/wiki/IRTF-RFCs">
         <front>
           <title>IRTF RFC Process</title>
@@ -671,12 +674,27 @@ responsible for any use that may be made of the information it contains.
           <date year=""/>
         </front>
       </reference>
+
+      <reference anchor="IAB" target="https://www.iab.org/about/description/">
+        <front>
+          <title>Internet Architecture Board Description</title>
+          <author fullname="IAB">
+            <organization />
+          </author>
+          <date year=""/>
+        </front>
+      </reference>
 </references>
 
 <section title="Changes from RFC2014">
 <texttable>
 <ttcol>Rev</ttcol>
 <ttcol>Changes</ttcol>
+<c>-05</c>
+<c>
+More feedback from Niels ten Oever. Fixed typos.
+</c>
+<c>&nbsp;</c><c>&nbsp;</c>
 <c>-04</c>
 <c>
 Addressed feedback from Mat Ford, Niels ten Oever and Martin Thomson.

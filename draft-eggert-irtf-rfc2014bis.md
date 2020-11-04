@@ -608,13 +608,12 @@ not responsible for any use that may be made of the information it contains.
 
 # Changes from RFC2014
 
-|---
 | Rev | Changes
-|---
+| --- | ---
+| -06 | Cosmetic changes due to moving to a newer xml2rfc.
 | -05 | More feedback from Niels ten Oever. Fixed typos. RFC5793 -> RFC8179. Converted to kramdown-rfc2629.
 | -04 | Addressed feedback from Mat Ford, Niels ten Oever and Martin Thomson.
 | -03 | Changed the stream to IRTF and status to Informational, per discussion with the IAB at the Cambridge, MA retreat. Added funding acknowledgment.
 | -02 | Added text about and reference to {{?RFC7418}}. Add pointer to IRTF RFC process wiki. More wordsmithing.
 | -01 | Use {{!RFC2119}} terms instead of local definitions. Fix idnits (missing IANA section, say that we obsolete {{!RFC2014}}, etc.) Update obsoleted references. Update acknowledgments. Remove text about the Internet Monthly Report (IMR). Remove text that says that a RG should have 4-5 members, and that proposed charters should include the names of such "charter members". Add suggestion that RG acronyms end in "RG". Change recommendation that RGs have 1-2 chairs to instead say "a small number", to allow cases where more than two chairs are useful. Update text on IRTF RFC Stream publication {{!RFC5742}}{{?RFC5743}}. Add text on IRTF IPR policies. Add pointers and text to {{?RFC4440}} and {{?RFC6322}}.
 | -00 | Document contains the entire, unmodified contents of {{!RFC2014}}, except for (1) boilerplate and layout changes that are due to the conversion to xml2rfc and (2) changed author information. It is being submitted so that it will be easier to view diffs of the content changes that will be introduced in subsequent versions.
-

@@ -4,9 +4,9 @@
 
 Internet Research Task Force (IRTF)                            L. Eggert
 Internet-Draft                                                    NetApp
-Obsoletes: 2014 (if approved)                          November 20, 2018
-Intended status: Informational
-Expires: May 24, 2019
+Obsoletes: 2014 (if approved)                            4 November 2020
+Intended status: Informational                                          
+Expires: 8 May 2021
 
 
              IRTF Research Group Guidelines and Procedures
@@ -27,6 +27,17 @@ Abstract
 
    This document obsoletes RFC2014.
 
+Discussion Venues
+
+   This note is to be removed before publishing as an RFC.
+
+   Discussion of this document takes place on the IRTF Working Group
+   mailing list (irtf@ietf.org), which is archived at
+   https://mailarchive.ietf.org/arch/browse/irtf/.
+
+   Source for this draft and an issue tracker can be found at
+   https://github.com/larseggert/irtf-rfc2014bis.
+
 Status of This Memo
 
    This Internet-Draft is submitted in full conformance with the
@@ -37,64 +48,72 @@ Status of This Memo
    working documents as Internet-Drafts.  The list of current Internet-
    Drafts is at https://datatracker.ietf.org/drafts/current/.
 
+
+
+
+
+
+Eggert                     Expires 8 May 2021                   [Page 1]
+
+Internet-Draft       IRTF Research Group Guidelines        November 2020
+
+
    Internet-Drafts are draft documents valid for a maximum of six months
    and may be updated, replaced, or obsoleted by other documents at any
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on May 24, 2019.
+   This Internet-Draft will expire on 8 May 2021.
 
 Copyright Notice
 
-   Copyright (c) 2018 IETF Trust and the persons identified as the
+   Copyright (c) 2020 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
-
-
-
-
-Eggert                    Expires May 24, 2019                  [Page 1]
-
-Internet-Draft       IRTF Research Group Guidelines        November 2018
-
-
    This document is subject to BCP 78 and the IETF Trust's Legal
-   Provisions Relating to IETF Documents
-   (https://trustee.ietf.org/license-info) in effect on the date of
-   publication of this document.  Please review these documents
-   carefully, as they describe your rights and restrictions with respect
-   to this document.  Code Components extracted from this document must
-   include Simplified BSD License text as described in Section 4.e of
-   the Trust Legal Provisions and are provided without warranty as
-   described in the Simplified BSD License.
+   Provisions Relating to IETF Documents (https://trustee.ietf.org/
+   license-info) in effect on the date of publication of this document.
+   Please review these documents carefully, as they describe your rights
+   and restrictions with respect to this document.  Code Components
+   extracted from this document must include Simplified BSD License text
+   as described in Section 4.e of the Trust Legal Provisions and are
+   provided without warranty as described in the Simplified BSD License.
 
 Table of Contents
 
-   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
+   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   3
      1.1.  IRTF Approach . . . . . . . . . . . . . . . . . . . . . .   4
      1.2.  IRTF and Intellectual Property Rights . . . . . . . . . .   5
-   2.  Research Group Formation  . . . . . . . . . . . . . . . . . .   5
+   2.  Research Group Formation  . . . . . . . . . . . . . . . . . .   6
      2.1.  Criteria for Formation  . . . . . . . . . . . . . . . . .   6
      2.2.  Charter . . . . . . . . . . . . . . . . . . . . . . . . .   7
-   3.  Research Group Operation  . . . . . . . . . . . . . . . . . .   8
+   3.  Research Group Operation  . . . . . . . . . . . . . . . . . .   9
      3.1.  Meeting Planning  . . . . . . . . . . . . . . . . . . . .   9
-     3.2.  Meeting Venue . . . . . . . . . . . . . . . . . . . . . .   9
+     3.2.  Meeting Venue . . . . . . . . . . . . . . . . . . . . . .  10
      3.3.  Meeting Management  . . . . . . . . . . . . . . . . . . .  10
    4.  Research Group Termination  . . . . . . . . . . . . . . . . .  10
-   5.  Staff Roles . . . . . . . . . . . . . . . . . . . . . . . . .  10
-     5.1.  IRTF Chair  . . . . . . . . . . . . . . . . . . . . . . .  10
-     5.2.  IRSG Member . . . . . . . . . . . . . . . . . . . . . . .  11
-     5.3.  Research Group Chair  . . . . . . . . . . . . . . . . . .  11
+   5.  Staff Roles . . . . . . . . . . . . . . . . . . . . . . . . .  11
+     5.1.  IRTF Chair  . . . . . . . . . . . . . . . . . . . . . . .  11
+     5.2.  IRSG Member . . . . . . . . . . . . . . . . . . . . . . .  12
+     5.3.  Research Group Chair  . . . . . . . . . . . . . . . . . .  12
      5.4.  Research Group Editor/Secretary . . . . . . . . . . . . .  13
    6.  Research Group Documents  . . . . . . . . . . . . . . . . . .  13
      6.1.  Meeting Documents . . . . . . . . . . . . . . . . . . . .  13
      6.2.  Request For Comments (RFC)  . . . . . . . . . . . . . . .  14
    7.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .  14
    8.  Security Considerations . . . . . . . . . . . . . . . . . . .  14
-   9.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .  14
+   9.  Acknowledgments . . . . . . . . . . . . . . . . . . . . . . .  15
    10. References  . . . . . . . . . . . . . . . . . . . . . . . . .  15
      10.1.  Normative References . . . . . . . . . . . . . . . . . .  15
      10.2.  Informative References . . . . . . . . . . . . . . . . .  15
+
+
+
+Eggert                     Expires 8 May 2021                   [Page 2]
+
+Internet-Draft       IRTF Research Group Guidelines        November 2020
+
+
    Appendix A.  Changes from RFC2014 . . . . . . . . . . . . . . . .  16
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .  17
 
@@ -106,13 +125,6 @@ Table of Contents
    issues related to the Internet, while its parallel organization, the
    Internet Engineering Task Force (IETF), focuses on shorter term
    issues of engineering and standards making.
-
-
-
-Eggert                    Expires May 24, 2019                  [Page 2]
-
-Internet-Draft       IRTF Research Group Guidelines        November 2018
-
 
    The IRTF is composed of a number of focused, long-term, small
    Research Groups.  These groups work on topics related to Internet
@@ -151,6 +163,13 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
    discussion of IRTF-wide topics [IRTF-DISCUSS], both allowing the
    community to engage with the IRTF.
 
+
+
+Eggert                     Expires 8 May 2021                   [Page 3]
+
+Internet-Draft       IRTF Research Group Guidelines        November 2020
+
+
    [RFC4440] provides additional important background information that
    the readers of this document should familiarize themselves with.
    [RFC7418] provides an introduction to the IRTF for IETF participants,
@@ -159,16 +178,6 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
    The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
    "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
    document are to be interpreted as described in [RFC2119].
-
-
-
-
-
-
-Eggert                    Expires May 24, 2019                  [Page 3]
-
-Internet-Draft       IRTF Research Group Guidelines        November 2018
-
 
 1.1.  IRTF Approach
 
@@ -209,6 +218,14 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
    the different goals and environments of the two organizations -
    research vs. standards setting.
 
+
+
+
+Eggert                     Expires 8 May 2021                   [Page 4]
+
+Internet-Draft       IRTF Research Group Guidelines        November 2020
+
+
    To ameliorate the effects of closed membership, all Research Groups
    are REQUIRED to regularly report progress to the community, and are
    encouraged to hold occasional open meetings (most likely co-located
@@ -216,15 +233,6 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
    at regular IETF meetings during which research results of interest to
    the community are presented.  Finally, multiple Research Groups
    working in the same general area may be formed, if appropriate.
-
-
-
-
-
-Eggert                    Expires May 24, 2019                  [Page 4]
-
-Internet-Draft       IRTF Research Group Guidelines        November 2018
-
 
    Even more than the IETF, the work of the IRSG is expected to be
    marked by informality.  The goal is to encourage and foster valuable
@@ -237,18 +245,18 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
    a summary of these rules as they relate to IRTF research group
    discussions, mailing lists and Internet Drafts:
 
-   o  If a participant includes their own or their employer's IPR in a
+   *  If a participant includes their own or their employer's IPR in a
       contribution to an IRTF research group, then they must file an IPR
       disclosure with the IETF.
 
-   o  If a participant recognizes their own or their employer's IPR in
+   *  If a participant recognizes their own or their employer's IPR in
       someone else's contribution and they are participating in the
       discussions in the research group relating to that contribution,
       then they must file an IPR disclosure with the IETF.  Even if they
       are not participating in the discussion, the IRTF still requests
       that they file an IPR disclosure with the IETF.
 
-   o  Finally, the IRTF requests that a participant file an IPR
+   *  Finally, the IRTF requests that a participant file an IPR
       disclosure with the IETF if they recognize IPR owned by others in
       any IRTF contribution.
 
@@ -257,6 +265,22 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
 
    See [RFC8179] for definitions of "IPR" and "contribution" and for the
    detailed rules (substituting "IRTF" for "IETF").
+
+
+
+
+
+
+
+
+
+
+
+
+Eggert                     Expires 8 May 2021                   [Page 5]
+
+Internet-Draft       IRTF Research Group Guidelines        November 2020
+
 
 2.  Research Group Formation
 
@@ -273,15 +297,6 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
    IRTF Research Group MUST submit a charter for the proposed group to
    the IRTF Chair along with a list of proposed founding members.  The
    charter SHALL be reviewed by the IRSG and then forwarded to the IAB
-
-
-
-
-Eggert                    Expires May 24, 2019                  [Page 5]
-
-Internet-Draft       IRTF Research Group Guidelines        November 2018
-
-
    for approval.  If approved, the charter is placed on the IRTF Web
    site.
 
@@ -305,21 +320,31 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
    In determining whether it is appropriate to create a Research Group,
    the IRTF Chair, the IRSG and the IAB SHALL consider several issues:
 
-   o  Is the research area that the Research Group plans to address
+   *  Is the research area that the Research Group plans to address
       clear and relevant for the Internet community?
 
-   o  Will the formation of the Research Group foster work that would
+   *  Will the formation of the Research Group foster work that would
       not be done otherwise?  For instance, membership drawn from more
       than a single institution, more than a single country, and so on,
       is to be encouraged.
 
-   o  Do the Research Group's activities overlap with those of another
+
+
+
+
+
+Eggert                     Expires 8 May 2021                   [Page 6]
+
+Internet-Draft       IRTF Research Group Guidelines        November 2020
+
+
+   *  Do the Research Group's activities overlap with those of another
       Research Group?  If so, it may still be appropriate to create the
       Research Group, but this question must be considered carefully
       since subdividing efforts often dilutes the available technical
       expertise.
 
-   o  Is there sufficient interest and expertise in the Research Group's
+   *  Is there sufficient interest and expertise in the Research Group's
       topic with at least several people willing to expend the effort
       that is likely to produce significant results over time?  Research
       Groups require considerable effort, including management of the
@@ -330,13 +355,6 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
    of the proposed Research Group to determine the relationship of the
    proposed work to the overall architecture of the Internet Protocol
    Suite.
-
-
-
-Eggert                    Expires May 24, 2019                  [Page 6]
-
-Internet-Draft       IRTF Research Group Guidelines        November 2018
-
 
 2.2.  Charter
 
@@ -366,6 +384,16 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
 
    2.  Chair(s)
 
+
+
+
+
+
+Eggert                     Expires 8 May 2021                   [Page 7]
+
+Internet-Draft       IRTF Research Group Guidelines        November 2020
+
+
        The Research Group may have a small number of Chair(s) to perform
        the administrative functions of the group.  The email address(es)
        of the Chair(s) SHALL be included.
@@ -385,15 +413,6 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
        subscription request for the interest list and the procedures to
        follow when subscribing, and the location of the interest mailing
        list archive.  It is RECOMMENDED that this mailing list be hosted
-
-
-
-
-Eggert                    Expires May 24, 2019                  [Page 7]
-
-Internet-Draft       IRTF Research Group Guidelines        November 2018
-
-
        under the irtf.org domain, so its archive will remain available
        in the future.
 
@@ -424,6 +443,13 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
        the proposed research and SHALL discuss objectives and expected
        impact with respect to the Internet Architecture.
 
+
+
+Eggert                     Expires 8 May 2021                   [Page 8]
+
+Internet-Draft       IRTF Research Group Guidelines        November 2020
+
+
 3.  Research Group Operation
 
    Research Groups are autonomous and each determines most of the
@@ -442,14 +468,6 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
    There are few hard and fast rules on organizing or conducting
    Research Group activities, but a set of guidelines and practices have
    evolved over time that have proven successful.  These are listed
-
-
-
-Eggert                    Expires May 24, 2019                  [Page 8]
-
-Internet-Draft       IRTF Research Group Guidelines        November 2018
-
-
    here, with actual choices typically determined by the Research Group
    members and a Chair.
 
@@ -459,11 +477,11 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
    publish to the group mailing list a draft agenda well in advance of
    the actual meeting.  The agenda needs to contain at least:
 
-   o  The items for discussion;
+   *  The items for discussion;
 
-   o  The estimated time necessary per item; and
+   *  The estimated time necessary per item; and
 
-   o  A clear indication of what documents the participants will need to
+   *  A clear indication of what documents the participants will need to
       read before the meeting in order to be well prepared.
 
    A Research Group will conduct much of its business via its electronic
@@ -472,6 +490,21 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
    meetings, such as brainstorming, heated altercations, etc.  Meetings
    MAY be scheduled as telephone conference, video teleconference, or
    face-to-face (physical) meetings.
+
+
+
+
+
+
+
+
+
+
+
+Eggert                     Expires 8 May 2021                   [Page 9]
+
+Internet-Draft       IRTF Research Group Guidelines        November 2020
+
 
    It is REQUIRED that all Research Group meetings be recorded in
    written minutes, to keep informed members who were not present and
@@ -497,15 +530,6 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
    fertilization that occurs during hallway and after-hours
    interactions.  Furthermore, as described above, even limited-
    membership Research Groups are encouraged to hold occasional open
-
-
-
-
-Eggert                    Expires May 24, 2019                  [Page 9]
-
-Internet-Draft       IRTF Research Group Guidelines        November 2018
-
-
    meetings; an IETF meeting would serve as an ideal venue for such an
    event.
 
@@ -531,6 +555,13 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
    fails to regularly report the results of its research to the
    community, the IRTF Chair can either:
 
+
+
+Eggert                     Expires 8 May 2021                  [Page 10]
+
+Internet-Draft       IRTF Research Group Guidelines        November 2020
+
+
    1.  Require that the group recharter to refocus on a different set of
        problems,
 
@@ -554,36 +585,24 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
    produce coherent, coordinated, architecturally consistent and timely
    output as a contribution to the overall evolution of the Internet
    architecture.  In addition to the detailed tasks related to Research
-
-
-
-Eggert                    Expires May 24, 2019                 [Page 10]
-
-Internet-Draft       IRTF Research Group Guidelines        November 2018
-
-
    Groups outlined below, the IRTF Chair MAY also from time to time
    arrange for topical workshops attended by the IRSG and perhaps other
    experts in the field.
 
    Planning
-
       The IRTF Chair monitors the range of activities.  This may include
       encouraging the formation of Research Groups directly, rather than
       waiting for proposals from IRTF participants.
 
    Coordination of Research Groups
-
       The IRTF Chair coordinates the work done by the various Research
       Groups.
 
    Reporting
-
       The IRTF Chair reports on IRTF progress to the to the IAB and the
       wider Internet community.
 
    Progress tracking
-
       The IRTF Chair tracks and manages the progress of the various
       Research Groups with the aid of a regular status report on
       documents and accomplishments from the Research Group Chairs.  The
@@ -591,6 +610,13 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
       regular intervals.  The IRTF Chair MAY use the IETF Datatracker to
       manage the status of Internet Drafts authored by the various
       Research Groups [RFC6322].
+
+
+
+Eggert                     Expires 8 May 2021                  [Page 11]
+
+Internet-Draft       IRTF Research Group Guidelines        November 2020
+
 
 5.2.  IRSG Member
 
@@ -610,14 +636,6 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
    tasks.  This encompasses at the very least the following:
 
    Ensuring the Research Group process and content management
-
-
-
-Eggert                    Expires May 24, 2019                 [Page 11]
-
-Internet-Draft       IRTF Research Group Guidelines        November 2018
-
-
       A Chair has ultimate responsibility for ensuring that a Research
       Group achieves forward progress.  For some Research Groups, this
       can be accomplished by having a Chair perform all management-
@@ -630,28 +648,32 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
       a Secretary performs on their behalf.
 
    Moderate the Research Group email list
-
       A Chair SHOULD attempt to ensure that the discussions on a list
       are relevant and do not devolve to "flame" attacks or rat-hole
       into technical trivia.  A Chair SHOULD make sure that discussions
       on the list are summarized and that the outcome is well documented
       (to avoid repetition).
 
-   Organize, prepare and chair face-to-face and on-line formal meetings
-
-
+   Organize, prepare and chair face-to-face and on-line formal
+   meetings
       A Chair SHOULD plan and announce meetings well in advance.  (See
       Section 3.1 for procedures.)
 
    Communicate results of meetings
-
       A Chair and/or Secretary MUST ensure that minutes of a meeting are
       taken and published to the participants.
 
    Distribute the work
-
       It is expected that all Research Group participants will actively
       contribute to the work of the group.  Research Group membership is
+
+
+
+Eggert                     Expires 8 May 2021                  [Page 12]
+
+Internet-Draft       IRTF Research Group Guidelines        November 2020
+
+
       expected to be a long-term commitment by a set of motivated
       members of the research community.  Of course, at any given time,
       more of the work is likely to be done by a few participants with
@@ -660,27 +682,17 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
       distribution of the workload.
 
    Document development
-
       Research Groups produce documents and documents need authors.
       However, authorship of papers related to the work of a Research
       Group is one of the primary reasons that researchers become
       members, so finding motivated authors should not be a problem.  It
       is up to the Research Group to decide the authorship of papers
-
-
-
-Eggert                    Expires May 24, 2019                 [Page 12]
-
-Internet-Draft       IRTF Research Group Guidelines        November 2018
-
-
       resulting from Research Group activities.  In particular,
       authorship by the entire group is not required.  The Research
       Group Chair MAY use the IETF Datatracker to manage the status of
       Internet Drafts authored by the group [RFC6322].
 
    Document publication
-
       The IRTF Chair, RG Chair and/or Secretary SHALL work with the
       IESG, IANA and the RFC Editor to ensure documents to be published
       as RFCs conform with RFC publication requirements, such as the
@@ -711,6 +723,13 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
    an IETF meeting, the agenda and document submission deadlines
    communicated for that IETF meeting take precedence.
 
+
+
+Eggert                     Expires 8 May 2021                  [Page 13]
+
+Internet-Draft       IRTF Research Group Guidelines        November 2020
+
+
    It is strongly RECOMMENDED that a Research Group Chair make sure that
    all meeting materials are made available via the IETF Datatracker's
    proceedings system, which also handles "interim" meetings not
@@ -718,17 +737,6 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
    final agenda and the minutes of the meeting) SHOULD be placed there.
    This has the advantage that all participants can retrieve all files
    and thus make sure they have all relevant documents.
-
-
-
-
-
-
-
-Eggert                    Expires May 24, 2019                 [Page 13]
-
-Internet-Draft       IRTF Research Group Guidelines        November 2018
-
 
 6.2.  Request For Comments (RFC)
 
@@ -769,6 +777,15 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
 
    Security issues are not discussed in this memo.
 
+
+
+
+
+Eggert                     Expires 8 May 2021                  [Page 14]
+
+Internet-Draft       IRTF Research Group Guidelines        November 2020
+
+
 9.  Acknowledgments
 
    This document is based on the October 1996 RFC "IRTF Research Group
@@ -778,14 +795,6 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
 
    Lars Eggert has received funding from the European Union's Horizon
    2020 research and innovation program 2014-2018 under grant agreement
-
-
-
-Eggert                    Expires May 24, 2019                 [Page 14]
-
-Internet-Draft       IRTF Research Group Guidelines        November 2018
-
-
    No. 644866 ("SSICLOPS").  This document reflects only the authors'
    views and the European Commission is not responsible for any use that
    may be made of the information it contains.
@@ -826,21 +835,20 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
               IRTF, "IRTF General and New-Work Discussion List", n.d.,
               <https://www.irtf.org/mailman/listinfo/irtf-discuss>.
 
+
+
+Eggert                     Expires 8 May 2021                  [Page 15]
+
+Internet-Draft       IRTF Research Group Guidelines        November 2020
+
+
    [IRTF-RFCs]
               IRTF, "IRTF RFC Process", n.d.,
-              <http://trac.tools.ietf.org/group/irtf/trac/wiki/
-              IRTF-RFCs>.
+              <http://trac.tools.ietf.org/group/irtf/trac/wiki/IRTF-
+              RFCs>.
 
-   [IRTFOPEN]
-              IRTF, "IRTF Open Meeting", n.d.,
+   [IRTFOPEN] IRTF, "IRTF Open Meeting", n.d.,
               <https://datatracker.ietf.org/group/irtfopen/about/>.
-
-
-
-Eggert                    Expires May 24, 2019                 [Page 15]
-
-Internet-Draft       IRTF Research Group Guidelines        November 2018
-
 
    [RFC1603]  Huizer, E. and D. Crocker, "IETF Working Group Guidelines
               and Procedures", RFC 1603, DOI 10.17487/RFC1603, March
@@ -875,66 +883,55 @@ Internet-Draft       IRTF Research Group Guidelines        November 2018
 
 Appendix A.  Changes from RFC2014
 
+    +=====+===========================================================+
+    | Rev | Changes                                                   |
+    +=====+===========================================================+
+    | -06 | Cosmetic changes due to moving to a newer xml2rfc.        |
+    +-----+-----------------------------------------------------------+
+    | -05 | More feedback from Niels ten Oever.  Fixed typos.         |
+    |     | RFC5793 -> RFC8179.  Converted to kramdown-rfc2629.       |
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Eggert                    Expires May 24, 2019                 [Page 16]
+Eggert                     Expires 8 May 2021                  [Page 16]
 
-Internet-Draft       IRTF Research Group Guidelines        November 2018
+Internet-Draft       IRTF Research Group Guidelines        November 2020
 
 
-   +-----+-------------------------------------------------------------+
-   | Rev | Changes                                                     |
-   +-----+-------------------------------------------------------------+
-   | -05 | More feedback from Niels ten Oever. Fixed typos. RFC5793 -> |
-   |     | RFC8179. Converted to kramdown-rfc2629.                     |
-   |     |                                                             |
-   | -04 | Addressed feedback from Mat Ford, Niels ten Oever and       |
-   |     | Martin Thomson.                                             |
-   |     |                                                             |
-   | -03 | Changed the stream to IRTF and status to Informational, per |
-   |     | discussion with the IAB at the Cambridge, MA retreat. Added |
-   |     | funding acknowledgment.                                     |
-   |     |                                                             |
-   | -02 | Added text about and reference to [RFC7418]. Add pointer to |
-   |     | IRTF RFC process wiki. More wordsmithing.                   |
-   |     |                                                             |
-   | -01 | Use [RFC2119] terms instead of local definitions. Fix       |
-   |     | idnits (missing IANA section, say that we obsolete          |
-   |     | [RFC2014], etc.) Update obsoleted references. Update        |
-   |     | acknowledgments. Remove text about the Internet Monthly     |
-   |     | Report (IMR). Remove text that says that a RG should have   |
-   |     | 4-5 members, and that proposed charters should include the  |
-   |     | names of such "charter members". Add suggestion that RG     |
-   |     | acronyms end in "RG". Change recommendation that RGs have   |
-   |     | 1-2 chairs to instead say "a small number", to allow cases  |
-   |     | where more than two chairs are useful. Update text on IRTF  |
-   |     | RFC Stream publication [RFC5742][RFC5743]. Add text on IRTF |
-   |     | IPR policies. Add pointers and text to [RFC4440] and        |
-   |     | [RFC6322].                                                  |
-   |     |                                                             |
-   | -00 | Document contains the entire, unmodified contents of        |
-   |     | [RFC2014], except for (1) boilerplate and layout changes    |
-   |     | that are due to the conversion to xml2rfc and (2) changed   |
-   |     | author information. It is being submitted so that it will   |
-   |     | be easier to view diffs of the content changes that will be |
-   |     | introduced in subsequent versions.                          |
-   +-----+-------------------------------------------------------------+
+    +-----+-----------------------------------------------------------+
+    | -04 | Addressed feedback from Mat Ford, Niels ten Oever and     |
+    |     | Martin Thomson.                                           |
+    +-----+-----------------------------------------------------------+
+    | -03 | Changed the stream to IRTF and status to Informational,   |
+    |     | per discussion with the IAB at the Cambridge, MA retreat. |
+    |     | Added funding acknowledgment.                             |
+    +-----+-----------------------------------------------------------+
+    | -02 | Added text about and reference to [RFC7418].  Add pointer |
+    |     | to IRTF RFC process wiki.  More wordsmithing.             |
+    +-----+-----------------------------------------------------------+
+    | -01 | Use [RFC2119] terms instead of local definitions.  Fix    |
+    |     | idnits (missing IANA section, say that we obsolete        |
+    |     | [RFC2014], etc.)  Update obsoleted references.  Update    |
+    |     | acknowledgments.  Remove text about the Internet Monthly  |
+    |     | Report (IMR).  Remove text that says that a RG should     |
+    |     | have 4-5 members, and that proposed charters should       |
+    |     | include the names of such "charter members".  Add         |
+    |     | suggestion that RG acronyms end in "RG".  Change          |
+    |     | recommendation that RGs have 1-2 chairs to instead say "a |
+    |     | small number", to allow cases where more than two chairs  |
+    |     | are useful.  Update text on IRTF RFC Stream publication   |
+    |     | [RFC5742][RFC5743].  Add text on IRTF IPR policies.  Add  |
+    |     | pointers and text to [RFC4440] and [RFC6322].             |
+    +-----+-----------------------------------------------------------+
+    | -00 | Document contains the entire, unmodified contents of      |
+    |     | [RFC2014], except for (1) boilerplate and layout changes  |
+    |     | that are due to the conversion to xml2rfc and (2) changed |
+    |     | author information.  It is being submitted so that it     |
+    |     | will be easier to view diffs of the content changes that  |
+    |     | will be introduced in subsequent versions.                |
+    +-----+-----------------------------------------------------------+
+
+                                  Table 1
 
 Author's Address
 
@@ -949,4 +946,7 @@ Author's Address
 
 
 
-Eggert                    Expires May 24, 2019                 [Page 17]
+
+
+
+Eggert                     Expires 8 May 2021                  [Page 17]
